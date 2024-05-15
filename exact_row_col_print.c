@@ -11,6 +11,8 @@ int main()
             scanf("%d",&a[i][j]);
         }
     }
+
+    // exact row
     int r;
     scanf("%d",&r);
     for(int i=0;i<col;i++)
@@ -18,6 +20,8 @@ int main()
         printf("%d ",a[r][i]);
     }
     printf("\n");
+
+    // exact column
     int c;
     scanf("%d",&c);
     for(int i=0;i<row;i++)
